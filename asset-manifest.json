@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mehakbasrani.github.io/Portfolio/static/css/main.2ee8ef60.css",
+    "main.js": "/mehakbasrani.github.io/Portfolio/static/js/main.01af2638.js",
+    "static/js/787.749b4a44.chunk.js": "/mehakbasrani.github.io/Portfolio/static/js/787.749b4a44.chunk.js",
+    "static/media/myphoto2.jpg": "/mehakbasrani.github.io/Portfolio/static/media/myphoto2.c77e8447b6f5f30b5a60.jpg",
+    "static/media/java.png": "/mehakbasrani.github.io/Portfolio/static/media/java.86407ffa56ebe1f70b6a.png",
+    "static/media/myphoto_prev_ui.png": "/mehakbasrani.github.io/Portfolio/static/media/myphoto_prev_ui.823b87da1ccce6116f12.png",
+    "static/media/MySQL.png": "/mehakbasrani.github.io/Portfolio/static/media/MySQL.6e42b2a035b28f240021.png",
+    "static/media/person.png": "/mehakbasrani.github.io/Portfolio/static/media/person.901cb508da9381c688e7.png",
+    "static/media/html.png": "/mehakbasrani.github.io/Portfolio/static/media/html.23784160d848f734c302.png",
+    "static/media/skills.png": "/mehakbasrani.github.io/Portfolio/static/media/skills.516cd97023546932b7d1.png",
+    "static/media/c++.png": "/mehakbasrani.github.io/Portfolio/static/media/c++.d7a72328ffe7d955a33e.png",
+    "static/media/shake.svg": "/mehakbasrani.github.io/Portfolio/static/media/shake.c7165a1f59e2367bf4395199384f606f.svg",
+    "index.html": "/mehakbasrani.github.io/Portfolio/index.html",
+    "main.2ee8ef60.css.map": "/mehakbasrani.github.io/Portfolio/static/css/main.2ee8ef60.css.map",
+    "main.01af2638.js.map": "/mehakbasrani.github.io/Portfolio/static/js/main.01af2638.js.map",
+    "787.749b4a44.chunk.js.map": "/mehakbasrani.github.io/Portfolio/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ee8ef60.css",
+    "static/js/main.01af2638.js"
+  ]
+}
