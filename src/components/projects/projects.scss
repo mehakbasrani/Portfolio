@@ -1,156 +1,146 @@
 @import "../../global.scss";
 
-.projects{
-    background-color: $maincolor;
+.projects {
+  background-color: $maincolor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  h1 {
+    font-family: cursive;
+    font-size: 50px;
+    color: rgba(245, 245, 245, 0.644);
+
+    @include mobile {
+      font-size: 40px;
+      text-align: center;
+      overflow: hidden;
+    }
+  }
+
+  .container {
+    width: 100vw;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
-    h1{
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .card {
+      background-color: rgba(245, 245, 245, 0.644);
+      width: 350px;
+      height: 450px;
+      margin: 10px;
+      box-shadow: 3px 3px 10px black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform: scale(1);
+      transition: 0.3s ease-in-out;
+
+      @include mobile {
+        width: 100vww;
+        height: 200px;
+        margin: 5px;
+      }
+
+      img {
+        width: 300px;
+        height: 180px;
+        margin: 20px;
+        border-radius: 20px;
+
+        @include mobile {
+          width: 100px;
+          height: 80px;
+          margin: 5px;
+          overflow: hidden;
+        }
+      }
+      h2 {
+        text-align: center;
+        color: $maincolor;
         font-family: cursive;
-        font-size: 50px;
+
+        @include mobile {
+          font-size: 15px;
+          overflow: hidden;
+        }
+      }
+      h6 {
+        font-family: cursive;
+        margin: 5px;
+
+        @include mobile {
+          margin: 2px;
+          margin-bottom: 0px;
+          font-size: 7px;
+          overflow: hidden;
+        }
+      }
+
+      p {
+        padding: 10px;
+        font-family: cursive;
+        color: rgb(78, 112, 175);
+
+        @include mobile {
+          font-size: 10px;
+          padding: 2px;
+          overflow: hidden;
+        }
+      }
+      button {
+        text-align: center;
+        font-family: cursive;
         color: rgba(245, 245, 245, 0.644);
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: $maincolor;
+        transform: scale(1);
+        transition: 0.3s ease;
+        cursor: pointer;
+        overflow: hidden;
 
-        @include mobile{
-            font-size: 40px;
-            text-align: center;
-            overflow: hidden;
+        @include mobile {
+          padding: 2px 5px;
+          font-size: 10px;
+          overflow: hidden;
         }
+      }
+      button:hover {
+        transform: scale(1.04);
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      // .languages {
+      //   display: flex;
+
+      //   .lang {
+      //     background-color: lightgrey;
+      //     margin: 0px 5px 5px 4px;
+      //     padding: 5px 10px;
+      //     border-radius: 20px;
+      //     font-family: cursive;
+
+      //     @include mobile {
+      //       margin: 0px 5px 2px 4px;
+      //       padding: 2px 5px;
+      //       font-size: 10px;
+      //       overflow: hidden;
+      //     }
+      //   }
+      // }
+
+      &:hover {
+        transform: scale(1.03);
+      }
     }
-
-
-    .container{
-        width: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-
-        @include mobile{
-            flex-direction: column;
-        }
-
-        .card{
-            background-color: rgba(245, 245, 245, 0.644);
-            width: 350px;
-            height: 450px;
-            margin: 10px;
-            box-shadow: 3px 3px 10px black;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            transform: scale(1);
-            transition: 0.3s ease-in-out;
-            
-           
-            @include mobile{
-                width: 100vww;
-                height: 200px;
-                margin: 5px;
-            }
-           
-
-
-            img{
-                width: 300px;
-                height: 180px;
-                margin: 20px ;
-               border-radius: 20px;
-
-               @include mobile{
-                width: 100px;
-                height: 80px;
-                margin: 5px ;
-                overflow: hidden;
-               }
-            }
-            h2{
-                text-align: center;
-                color: $maincolor;
-                font-family: cursive;
-                
-                @include mobile{
-                   font-size: 15px;
-                   overflow: hidden;
-                   
-                   }
-            }
-            h6{
-                font-family: cursive;
-                margin: 5px;
-
-                @include mobile{
-                    margin: 2px;
-                    margin-bottom: 0px;
-                    font-size: 7px;
-                    overflow: hidden;
-                    }
-            }
-            
-        p{
-            padding: 10px;
-            font-family: cursive;
-            color: rgb(78, 112, 175);
-
-            @include mobile{
-                font-size: 10px;
-                padding: 2px;
-                overflow: hidden;
-            }
-           
-        }
-            button{
-                text-align: center;
-                font-family: cursive;
-                color:rgba(245, 245, 245, 0.644);
-                padding: 5px 10px;
-                border-radius: 5px;
-                border: none;
-                background-color: $maincolor;
-                transform: scale(1);
-                transition:  0.3s ease;
-                cursor: pointer;
-                
-                @include mobile{
-                    padding: 2px 5px;
-                    font-size: 10px;
-                    overflow: hidden;
-                }
-                
-            }
-            button:hover{
-                transform: scale(1.04);
-               border: none;
-               border-radius: 10px;
-            }
-            
-            .languages{
-                display: flex;
-
-                .lang{
-                    background-color: lightgrey;
-                    margin: 0px 5px 5px 4px;
-                    padding: 5px 10px;
-                    border-radius: 20px;
-                    font-family: cursive;
-
-                    @include mobile{
-                        margin: 0px 5px 2px 4px;
-                        padding: 2px 5px;
-                        font-size: 10px;
-                        overflow: hidden;
-                    }
-                }
-            }
-
-            &:hover{
-                
-                transform: scale(1.03);
-        }
-        
-        }
-
-    }
+  }
 }
-

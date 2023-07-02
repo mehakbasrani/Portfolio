@@ -5,8 +5,9 @@ import Intro from './components/intro/Intro';
 import About from "./components/about/About"
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
-import { useState } from 'react';
 import Menu from './components/menu/Menu';
+import { useState } from 'react';
+
 
 
 function App() {

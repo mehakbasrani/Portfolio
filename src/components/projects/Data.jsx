@@ -1,34 +1,33 @@
+
+
 const Data = [
+  
     {
-        imgsrc: "project photos/spotify.png",
+        imgsrc: require('./images/gaanaBajaana.png'),
         alt: "spotify",
-        title : "Spotify Clone",
-        quotes : "Want To Relax!?",
-        description : "This application is a clone of Spotify app that has some of my favourite songs.",
-        link:"https://mehakbasrani.github.io/Spotify-Clone/",
-        lang1:"HTML",
-        lang2 :"CSS",
-        lang3: "JavaScript"
+        title : "Gaana Bajaana",
+        quotes : "Want To Relax !?",
+        description : "User can Login and interact with Spotify's streaming service..",
+        link:"https://mehakbasrani.github.io/Gaana-Bajaana/",
+        
     },
     {
-        imgsrc :"project photos/dragon.png",
-        title : "Dragon Game",
-        quotes : "Want To Play!?",
-        description : "This is a very simple game that is developed purely using HTNL,CSS and JavaScript.",
-        link:"https://mehakbasrani.github.io/Dragon-Game/",
-        lang1:"HTML",
-        lang2 :"CSS",
-        lang3: "JavaScript"
+        imgsrc :require('./images/TravelGuide.png'),
+        alt: "Travel Guide",
+        title : "Travel Guide",
+        quotes : "Want To Travel !?",
+        description : "User can find hotels, restaurants and places of attractions near their location.",
+        link:"https://mehakbasrani.github.io/TravelGuide/",
+        
     },
     {
-        imgsrc :"project photos/todo list.png",
-        title : "TO-DO List",
-        quotes : "Want To be more productive!?",
-        description : "Write down what is to be done in this web app. ",
-        link:"https://mehakbasrani.github.io/ToDo-list/",
-        lang1:"HTML",
-        lang2 :"CSS",
-        lang3: "ReactJs"
+        imgsrc : require('./images/restaurant.png'),
+        alt: "My Restaurant",
+        title : "My Restaurant",
+        quotes : "Want To be try different cuisine!?",
+        description : "A small application that tells about  a rerstaurant. ",
+        link:"https://mehakbasrani.github.io/myRestaurant/",
+        
     }
 ];
 export default Data
