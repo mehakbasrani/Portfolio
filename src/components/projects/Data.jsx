@@ -21,12 +21,21 @@ const Data = [
         
     },
     {
-        imgsrc : require('./images/restaurant.png'),
-        alt: "My Restaurant",
-        title : "My Restaurant",
-        quotes : "Want To be try different cuisine!?",
-        description : "A small application that tells about  a rerstaurant. ",
+        imgsrc : require('./images/myBooking.png'),
+        alt: "Feel Like Home",
+        title : "Feel Like Home",
+        quotes : "Want To Feel Like Home Even When Travelling !?",
+        description : "User can book rooms and have a comfortable stay. ",
         link:"https://mehakbasrani.github.io/myRestaurant/",
+        
+    },
+    {
+        imgsrc : require('./images/drappointment.png'),
+        alt: "medicare",
+        title : "Medicare",
+        quotes : "Want to book doctor's appointment online !?",
+        description : "User can login and book appointment with doctors. ",
+        link:"https://659b0032480483c719fabc1f--spontaneous-salmiakki-7a19c3.netlify.app/",
         
     }
 ];

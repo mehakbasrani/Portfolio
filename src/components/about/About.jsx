@@ -39,7 +39,7 @@ export default function About( ) {
                  <a href="https://github.com/mehakbasrani">
                  <img src={github} alt="" />
                  </a>
-                 <a href="https://www.instagram.com/rifff__life__23/">
+                 <a href="https://www.instagram.com/__.mehak_basrani/">
                  <img src={instagram} alt="" />
                  </a>
             </div>

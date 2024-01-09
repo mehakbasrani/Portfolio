@@ -23,7 +23,9 @@ export default function Contact() {
       <div className="left">
          <img src={shake} alt="" />
          <h5>Thank You for stopping by !</h5>
-         <h6>Let's get in touch on any of these platforms.</h6>
+         <p>Whether you have a question, 
+            talk about a project collaboration, 
+            brainstorming or just want to say hi, my inbox is always open.</p>
          <div className="imgContainer">
            <a href="https://www.linkedin.com/in/mehak-basrani-b444941a4/">
            <img src={linkedin} alt="" />
