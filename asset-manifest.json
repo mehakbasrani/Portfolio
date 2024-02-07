@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.719d705e.css",
-    "main.js": "/Portfolio/static/js/main.f08e0bf0.js",
+    "main.css": "/Portfolio/static/css/main.2d2d11d0.css",
+    "main.js": "/Portfolio/static/js/main.2e82b35b.js",
     "static/js/787.749b4a44.chunk.js": "/Portfolio/static/js/787.749b4a44.chunk.js",
-    "static/media/restaurant.png": "/Portfolio/static/media/restaurant.350a07e611ebbb8c1428.png",
     "static/media/TravelGuide.png": "/Portfolio/static/media/TravelGuide.afda1c33cdee495fa714.png",
+    "static/media/drappointment.png": "/Portfolio/static/media/drappointment.fcbbdad3d7af9f2e699b.png",
+    "static/media/myBooking.png": "/Portfolio/static/media/myBooking.7480b6e934c7c98668fc.png",
     "static/media/myphoto2.jpg": "/Portfolio/static/media/myphoto2.c77e8447b6f5f30b5a60.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.86407ffa56ebe1f70b6a.png",
     "static/media/myphoto_prev_ui.png": "/Portfolio/static/media/myphoto_prev_ui.823b87da1ccce6116f12.png",
+    "static/media/MongoDB_Logo.png": "/Portfolio/static/media/MongoDB_Logo.3a364684503a40b5fbb2.png",
+    "static/media/nodejs.jpg": "/Portfolio/static/media/nodejs.8661bbe0ff491e1c8cac.jpg",
     "static/media/gaanaBajaana.png": "/Portfolio/static/media/gaanaBajaana.d4e0d58c514012a1da24.png",
     "static/media/MySQL.png": "/Portfolio/static/media/MySQL.6e42b2a035b28f240021.png",
     "static/media/person.png": "/Portfolio/static/media/person.901cb508da9381c688e7.png",
@@ -16,12 +19,12 @@
     "static/media/c++.png": "/Portfolio/static/media/c++.d7a72328ffe7d955a33e.png",
     "static/media/shake.svg": "/Portfolio/static/media/shake.c7165a1f59e2367bf4395199384f606f.svg",
     "index.html": "/Portfolio/index.html",
-    "main.719d705e.css.map": "/Portfolio/static/css/main.719d705e.css.map",
-    "main.f08e0bf0.js.map": "/Portfolio/static/js/main.f08e0bf0.js.map",
+    "main.2d2d11d0.css.map": "/Portfolio/static/css/main.2d2d11d0.css.map",
+    "main.2e82b35b.js.map": "/Portfolio/static/js/main.2e82b35b.js.map",
     "787.749b4a44.chunk.js.map": "/Portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.719d705e.css",
-    "static/js/main.f08e0bf0.js"
+    "static/css/main.2d2d11d0.css",
+    "static/js/main.2e82b35b.js"
   ]
 }
