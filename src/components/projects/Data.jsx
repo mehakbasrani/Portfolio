@@ -6,7 +6,7 @@ const Data = [
         title : "Gaana Bajaana",
         quotes : "Want To Relax !?",
         description : "User can Login and interact with Spotify's streaming service..",
-        link:"https://github.com/mehakbasrani/bookingApp.git",
+        link:"https://mehakbasrani.github.io/Gaana-Bajaana/",
         
     },
     {
@@ -24,7 +24,7 @@ const Data = [
         title : "Feel Like Home",
         quotes : "Want To Feel Like Home Even When Travelling !?",
         description : "User can book rooms and have a comfortable stay. ",
-        link:"https://mehakbasrani.github.io/myRestaurant/",
+        link:"https://github.com/mehakbasrani/bookingApp.git",
         
     },
     {
