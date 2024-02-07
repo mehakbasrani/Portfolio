@@ -1,5 +1,3 @@
-
-
 const Data = [
   
     {
@@ -8,7 +6,7 @@ const Data = [
         title : "Gaana Bajaana",
         quotes : "Want To Relax !?",
         description : "User can Login and interact with Spotify's streaming service..",
-        link:"https://mehakbasrani.github.io/Gaana-Bajaana/",
+        link:"https://github.com/mehakbasrani/bookingApp.git",
         
     },
     {
